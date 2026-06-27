@@ -15,7 +15,7 @@
 
 # 1. Amaç
 
-Bu doküman, her kritik bileşen için kabul edilebilir maksimum veri kaybı süresini (RPO) ve maksimum kabul edilebilir geri dönüş süresini (RTO) iş gerekçesiyle birlikte tanımlamaktadır. DOC-01 (İş Kaybı Özeti), DOC-02 (Sistem Bileşen Envanteri) ve DOC-04 (Bağımlılık Diyagramı) ile tutarlıdır.
+Bu doküman, her kritik bileşen için kabul edilebilir maksimum veri kaybı süresini (RPO) ve maksimum kabul edilebilir geri dönüş süresini (RTO) iş gerekçesiyle birlikte tanımlamaktadır. 
 
 ---
 
