@@ -67,14 +67,14 @@ v
 
 # 4. Bağımlılık Tablosu
 
-| Bileşen | Bağlı Olduğu | Bağımlılık Türü | Kaynak |
-|---|---|---|---|
-| Kimlik Doğrulama | PostgreSQL | Zorunlu (hard) | DOC-02 §4 |
-| Backend API | PostgreSQL, Kimlik Doğrulama, S3 | Zorunlu (hard) | DOC-02 §4 |
-| CDN | S3 | Zorunlu (hard, kendi veri kaynağı yok) | DOC-02 §4 |
-| Frontend | Backend API, CDN | Zorunlu (hard) | DOC-01 §2, DOC-02 §3 |
-| Vektör İndeksi | PostgreSQL, S3 | Türetilen (rebuildable) | DOC-02 §5 |
-| Ajan / RAG Bot | Vektör İndeksi | Zorunlu ama düşük öncelik | DOC-02 §5 |
+| Bileşen | Bağlı Olduğu | Bağımlılık Türü |
+|---|---|---|
+| Kimlik Doğrulama | PostgreSQL | Zorunlu (hard) |
+| Backend API | PostgreSQL, Kimlik Doğrulama, S3 | Zorunlu (hard) |
+| CDN | S3 | Zorunlu (hard, kendi veri kaynağı yok) |
+| Frontend | Backend API, CDN | Zorunlu (hard) |
+| Vektör İndeksi | PostgreSQL, S3 | Türetilen (rebuildable) |
+| Ajan / RAG Bot | Vektör İndeksi | Zorunlu ama düşük öncelik |
 
 ---
 
